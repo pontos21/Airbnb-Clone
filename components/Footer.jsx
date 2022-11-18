@@ -18,25 +18,25 @@ function Footer() {
             <p>This is not a real site</p>
             <p>It's a pretty awesome clone</p>
             <p>Lifelike</p>
-            <p>API</p>
+            <p>Careers</p>
         </div>
 
         <div className='space-y-4 text-sx text-gray-800'>
             <h5 className='font-bold'>HOST</h5>
-            <p>How Airbnb Works</p>
-            <p>Newsroom</p>
-            <p>Investors</p>
-            <p>Airbnb Plus</p>
-            <p>Airbnb Luxe</p>
+            <p>Airbnb your home</p>
+            <p>AirCover for Hosts</p>
+            <p>Explore Hosting resources</p>
+            <p>Visit our community forum</p>
+            <p>How to host responsibly</p>
         </div>
 
         <div className='space-y-4 text-sx text-gray-800'>
             <h5 className='font-bold'>SUPPORT</h5>
             <p>Help Center</p>
             <p>Trust & Safety</p>
-            <p>Say Hello</p>
-            <p>Easter Eggs</p>
-            <p>For the Win</p>
+            <p>Support people with disabilities</p>
+            <p>Cancellation options</p>
+            <p>Combating discrimination</p>
         </div>
     </div>
   )
