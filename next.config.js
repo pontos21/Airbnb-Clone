@@ -4,6 +4,9 @@ const nextConfig = {
   swcMinify: true,
   images: {
     domains: ['links.papareact.com'],
+  },
+  env: {
+    mapboxglaccessToken: 'pk.eyJ1IjoicG9udG9zMjEiLCJhIjoiY2xhbjBoMXE5MGZubDN3bWs4ZXd4bm1qbSJ9.YX6vbg4YpwzXXv3cmBqvzw'
   }
 }
 
