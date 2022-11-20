@@ -30,7 +30,7 @@ function Search({ searchResults }) {
                         <p className='button'>Cancellation Flexibility</p>
                         <p className='button'>Type of Place</p>
                         <p className='button'>Price</p>
-                        <p className='button'>Rooms and Bedd</p>
+                        <p className='button'>Rooms and Bed</p>
                         <p className='button'>More filters</p>
                     </div>
 
@@ -51,8 +51,8 @@ function Search({ searchResults }) {
                     
                 </section>
 
-                <section className='min-w-[600px]'>
-                    <Maps />
+                <section className='hidden xl:inline-flex xl:min-w-[600px]'>
+                    <Maps searchResults={searchResults} />
                 </section>
             </main>
 

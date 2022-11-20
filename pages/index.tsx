@@ -6,7 +6,7 @@ import MediumCard from '../components/MediumCard'
 import LargeCard from '../components/LargeCard'
 import Footer from '../components/Footer'
 
-export default function Home({ exploreData, cardsData }) {
+export default function Home({ exploreData, cardsData, placeholder }) {
 
   return (
     <div className="">
@@ -16,7 +16,7 @@ export default function Home({ exploreData, cardsData }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
+      <Header {...placeholder}/>
       <Banner />
 
       <main className='max-w-7xl mx-auto px-8 sm:px-16'>
